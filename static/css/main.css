@@ -1,0 +1,115 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+main > .container {
+  padding: 90px 15px 0;
+}
+
+.question {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.question-img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.question-title {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.question-text {
+}
+
+.left-side {
+margin-left: 30px;
+}
+
+.top-space {
+    margin-top: 70px;
+}
+
+.members {
+    margin-top: 20px;
+}
+
+.like-button {
+    margin-top: 10px;
+
+}
+
+.answers-tags {
+    display: inline-block;
+    margin-top: 30px;
+}
+.tags {
+    margin-left: 20px;
+}
+
+
+
+
+.search-area {
+    margin-left: 30px;
+}
+
+.navigationBarAccountPart{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    margin: 0px 15px 0px 15px;
+}
+.usersImage{
+    height: 60px;
+    width: 60px;
+    align-self: center;
+}
+
+.navigationBarAccountButtons{
+    display: flex;
+    height: 40px;
+    padding: 3px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.usersNickname{
+    color: white;
+}
+
+.accountButtons {
+ color: white;
+}
+
+.pages {
+margin-top: 20px;
+}
+
+.ask-title {
+margin-top: 10px;
+margin-bottom: 20px;}
+
+.ask-text {
+margin-top: 10px;
+margin-bottom: 20px;}
+
+.ask-tags {
+margin-top: 10px;
+margin-bottom: 20px;}
+
+.hot_questions {
+margin-left: 10px;
+display: inline-block;
+}
+
+.counterOfLikes {
+margin-top: 10px;}
